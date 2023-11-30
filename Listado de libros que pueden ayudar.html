@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="utf-8">
+  <title>Desarrollo Personal </title>
+<style>
+  body {
+      font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    article {
+      margin-bottom: 10px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    section {
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    aside {
+      float: upright;
+      width: 98%;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+  <script>
+    function guardarDatos() {
+      var nombre = document.getElementById("nombre").value;
+      var apellido = document.gatElementById("apellido").value;
+      var gmail = docuemnt.getElementById("gmail").value;
+    }
+    function buscarGoogle() {
+      var query = docuement.getElementById("buscqueda").value;
+      var url ="https://www.google.com/search" + encoduURIComponent
+      window.location.href = url;
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Desarrollo Personal </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Listado de libros que pueden ayudar.html">Listado de libros que pueden ayudar</a></li>
+      <li><a href="Beneficios y Consecuencias.html">Beneficios y Consecuencias</a></li>
+      <li><a href="Dificultades.html">Dificultades a enfrentarse</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <article>
+      <h2>Listado de libro que ayudan al desarrollo personal</h2>
+    <p> El desarrollo personal es un campo amplio y diverso, y hay una gran cantidad de libros que pueden ayudarte a crecer y mejorar en diferentes aspectos de tu vida. Aquí tienes una lista de algunos libros populares en el ámbito del desarrollo personal:</p>
+    <ol>
+      <li>"El Poder del Ahora" de Eckhart Tolle: Explora la importancia de vivir en el presente.</li>
+      <li>"Los 7 Hábitos de la Gente Altamente Efectiva" de Stephen Covey: Ofrece principios para mejorar la efectividad personal y profesional.</li>
+      <li>"Inteligencia Emocional" de Daniel Goleman: Examina la importancia de la inteligencia emocional en el éxito personal.</li>
+      <li>"Mente Zen, Mente de Principiante" de Shunryu Suzuki: Aborda conceptos clave de la meditación y la mentalidad zen.</li>
+      <li>"El Secreto" de Rhonda Byrne: Se centra en la ley de la atracción y cómo nuestras creencias afectan nuestra realidad.</li>
+      <li>"El Poder del Hábito" de Charles Duhigg: Analiza cómo los hábitos influyen en nuestras vidas y cómo cambiarlos.</li>
+      <li>"Padre Rico, Padre Pobre" de Robert Kiyosaki: Examina las diferencias de mentalidad financiera entre dos padres.</li>
+      <li>"Mindset: La Actitud del Éxito" de Carol S. Dweck: Explora la importancia del mindset o mentalidad en el logro de metas.</li>
+      <li>"El Arte de Amar" de Erich Fromm: Ofrece perspectivas sobre el amor y las relaciones humanas.</li>
+      <li>"Cómo Ganar Amigos e Influir sobre las Personas" de Dale Carnegie: Proporciona principios para mejorar las habilidades sociales.</li>
+    </ol>
+    <p>Hay que recuerda que la efectividad de estos libros puede variar según la persona, así que es útil explorar diferentes enfoques y encontrar lo que mejor se adapte a tus necesidades.</p>
+    <div style="text-align:center ;">
+      <img src="Imagenes/imagen7.jpg" alt="Septima imagen" width="300" height="200">
+      <img src="Imagenes/imagen8.jpg" alt="Octava imagen" width="300" height="200">
+      <img src="Imagenes/imagen9.jpg" alt="Novena imagen" width="300" height="200">
+      <img src="Imagenes/imagen10.jpg" alt="Decima imagen" width="300" height="200">
+    </div>
+    </article>
+  </section>
+<section>
+    <div class="form-container">
+      <h2>Regístrate</h2>
+      <p>Si quieres saber más sobre el tema resgístrate</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+        <label for="gmail">G-mail:</label>
+        <input type="text" id="gmail" name="gmail" required><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
+  <aside>
+    <h2>Buscar en Google</h2>
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="q" placeholder="Buscar en Google">
+      <input type="submit" value="Buscar">
+    </form>
+  </aside>
+  <footer>
+    <p> &copy; 2023 - Desarrollo Personal</p>
+  </footer>
+</body>
+</html>
