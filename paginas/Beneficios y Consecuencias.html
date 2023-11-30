@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="utf-8">
+  <title>Desarrollo Personal </title>
+<style>
+  body {
+      font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    article {
+      margin-bottom: 10px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+
+    section {
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    aside {
+      float: upright;
+      width: 98%;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+  <script>
+    function guardarDatos() {
+      var nombre = document.getElementById("nombre").value;
+      var apellido = document.gatElementById("apellido").value;
+      var gmail = docuemnt.getElementById("gmail").value;
+    }
+    function buscarGoogle() {
+      var query = docuement.getElementById("busqueda").value;
+      var url ="https://www.google.com/search" + encoduURIComponent
+      window.location.href = url;
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Desarrollo Personal </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../Index.html">Inicio</a></li>
+      <li><a href="Listado de libros que pueden ayudar.html">Listado de libros que pueden ayudar</a></li>
+      <li><a href="#">Beneficios y Consecuencias</a></li>
+      <li><a href="Dificultades.html">Dificultades a enfrentarse</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <article>
+      <h2>Beneficios de un buen desarrollo personal</h2>
+    <p>El desarrollo personal se erige como un catalizador fundamental para desbloquear el potencial humano en diversas facetas. En primera instancia, la adopción de hábitos saludables y la gestión eficaz del tiempo se traducen en una mayor productividad y bienestar general. Este enfoque proactivo hacia la propia vida no solo reduce el estrés cotidiano, sino que también establece cimientos sólidos para el logro de metas a largo plazo. La autoconciencia cultivada durante el proceso facilita la identificación de fortalezas y debilidades, impulsando una mejora continua que nutre el crecimiento personal y profesional.</p>
+
+    <p>Por otra parte, el desarrollo personal robustece las habilidades sociales y emocionales, propiciando conexiones más profundas y significativas con los demás. La construcción de relaciones saludables se ve fortalecida por la confianza en sí mismo y la empatía, creando un entorno social enriquecedor. En el ámbito de la salud mental, este camino hacia el crecimiento personal actúa como un escudo ante las adversidades, proporcionando herramientas para afrontar desafíos con resiliencia y claridad. Además, el compromiso con la expansión del conocimiento y la apertura a nuevas experiencias nutren la mente, estimulando la creatividad y la agudeza intelectual. En resumen, el desarrollo personal se erige como un faro que ilumina la senda hacia una vida más plena, conectada y satisfactoria.</p>
+    <div style="text-align:center ;">
+      <img src="Imagenes/imagen11.jpeg" alt="Onceavo imagen" width="300" height="200">
+    </div>
+  </article>
+  <article>
+      <h2>Consecuencias de la falta de un buen desarollo personal</h2>
+      <p>La carencia de un sólido desarrollo personal puede desencadenar diversas consecuencias que afectan la calidad de vida de un individuo. En primer lugar, la falta de autoconocimiento y autoestima puede generar indecisión y una sensación de desorientación en la toma de decisiones. Esto, a su vez, puede contribuir al estancamiento personal y profesional, limitando las oportunidades de crecimiento y la consecución de metas a largo plazo.</p>
+
+      <p>En el ámbito laboral, la ausencia de habilidades como la gestión del tiempo, la resolución de problemas y la comunicación efectiva puede resultar en un rendimiento deficiente y en dificultades para avanzar en la carrera. La falta de adaptabilidad y la resistencia al cambio también pueden llevar a la obsolescencia profesional. Socialmente, la carencia de habilidades sociales puede afectar negativamente las relaciones interpersonales, provocando aislamiento y la pérdida de conexiones significativas. En última instancia, la falta de un buen desarrollo personal puede traducirse en una vida marcada por la insatisfacción, la falta de logros y la dificultad para construir relaciones sólidas y saludables.</p>
+      <div style="text-align:center ;">
+      <img src = "">
+      <img src="Imagenes/imagen12.jpg" alt="Doceavo imagen" width="300" height="200">
+    </div>
+    </article>
+  </section>
+  <section>
+    <div class="form-container">
+      <h2>Regístrate</h2>
+      <p>Si quieres saber más sobre el tema resgístrate</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+        <label for="gmail">G-mail:</label>
+        <input type="text" id="gmail" name="gmail" required><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
+  <aside>
+    <h2>Buscar en Google</h2>
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="q" placeholder="Buscar en Google">
+      <input type="submit" value="Buscar">
+    </form>
+  </aside>
+  <footer>
+    <p> &copy; 2023 - Desarrollo Personal</p>
+  </footer>
+</body>
+</html>
